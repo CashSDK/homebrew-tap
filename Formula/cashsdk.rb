@@ -1,7 +1,6 @@
 class Cashsdk < Formula
   desc "Manage in-app purchases, subscriptions and paywalls from your terminal"
   homepage "https://docs.cashsdk.com/cli/overview"
-  version "2.0.2"
   license :cannot_represent # commercial, see LICENSE.md in the archive
 
   on_macos do

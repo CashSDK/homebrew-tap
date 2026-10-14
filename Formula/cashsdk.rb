@@ -5,21 +5,21 @@ class Cashsdk < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/CashSDK/cashsdk-cli/releases/download/v2.0.2/cashsdk_2.0.2_darwin_arm64.tar.gz"
-      sha256 "2793089e503f67b1728802703259d7b17a86368a10b007715d1ce5ffe4aedf0c"
+      url "https://github.com/CashSDK/cashsdk-cli/releases/download/v2.1.0/cashsdk_2.1.0_darwin_arm64.tar.gz"
+      sha256 "f0ee5d84f6b66a94365eb57e945c111b83be3915753d85a729e15a784f2c43ba"
     else
-      url "https://github.com/CashSDK/cashsdk-cli/releases/download/v2.0.2/cashsdk_2.0.2_darwin_amd64.tar.gz"
-      sha256 "cea12bc983308b38c31c34f4ff11b0165d118f2327639fbcf6ed0fddfe82ccc6"
+      url "https://github.com/CashSDK/cashsdk-cli/releases/download/v2.1.0/cashsdk_2.1.0_darwin_amd64.tar.gz"
+      sha256 "0cd611dab274f2a35453642eb242c74d53f236ff0d12679da159d456ceb0e5b8"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/CashSDK/cashsdk-cli/releases/download/v2.0.2/cashsdk_2.0.2_linux_arm64.tar.gz"
-      sha256 "c34a4764423ed781949466584ce3eb4961ba3f6775669041f329019464ca4db3"
+      url "https://github.com/CashSDK/cashsdk-cli/releases/download/v2.1.0/cashsdk_2.1.0_linux_arm64.tar.gz"
+      sha256 "93837940fcad309f55f79a9424445dbc2045bef4b815710eb2f44221d417abdc"
     else
-      url "https://github.com/CashSDK/cashsdk-cli/releases/download/v2.0.2/cashsdk_2.0.2_linux_amd64.tar.gz"
-      sha256 "7e4f77f7145e63deebfd5109bdfa73eb8c6905db406d2e6953294266e4c9800b"
+      url "https://github.com/CashSDK/cashsdk-cli/releases/download/v2.1.0/cashsdk_2.1.0_linux_amd64.tar.gz"
+      sha256 "4a909a81ed94f48904ee513ecd64507044bd4e8228a19863e8842e6a9530ba83"
     end
   end
 
